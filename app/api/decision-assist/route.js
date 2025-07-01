@@ -2,7 +2,7 @@ import { generateText } from "ai"
 import { createOpenAI } from "@ai-sdk/openai"
 
 const granite = createOpenAI({
-  apiKey: process.env.IBM_GRANITE_API_KEY || "xMTnxwuzf4qJdpAjFpMMyu9bRJPd9zePk-krnXLOtV0l",
+  apiKey: process.env.IBM_GRANITE_API_KEY || "",
   baseURL: "https://bam-api.res.ibm.com/v1",
 })
 
