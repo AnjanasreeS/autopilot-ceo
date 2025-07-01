@@ -3,7 +3,7 @@ import { createOpenAI } from "@ai-sdk/openai"
 
 // Initialize IBM Granite (using OpenAI-compatible API)
 const granite = createOpenAI({
-  apiKey: process.env.IBM_GRANITE_API_KEY || "xMTnxwuzf4qJdpAjFpMMyu9bRJPd9zePk-krnXLOtV0l",
+  apiKey: process.env.IBM_GRANITE_API_KEY || "",
   baseURL: "https://bam-api.res.ibm.com/v1", // IBM Granite API endpoint
 })
 
